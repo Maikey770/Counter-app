@@ -1,0 +1,19 @@
+{
+  "name": "counter-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wds --open index.html --watch --node-resolve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@haxtheweb/multiple-choice": "^11.0.5"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}
