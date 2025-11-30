@@ -1,5 +1,5 @@
 // Mobile slide-down menu
-import { LitElement, html, css } from "lit";
+import { LitElement, html, css } from "https://esm.run/lit";
 
 export class MobileMenu extends LitElement {
   static properties = {
