@@ -1,5 +1,5 @@
 // Top navigation bar
-import { LitElement, html, css } from "lit";
+import { LitElement, html, css } from "https://esm.run/lit";
 
 export class HeaderBar extends LitElement {
   static properties = {
