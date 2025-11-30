@@ -1,19 +1,22 @@
 {
-  "name": "counter-app",
+  "name": "project-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "counter-app.js",
+  "description": "HAX DDD Project 2",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "wds --open index.html --watch --node-resolve"
+    "dev": "wds --open --watch --node-resolve --app-index index.html",
+    "build": "rollup -c",
+    "start": "wds --node-resolve --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@haxtheweb/multiple-choice": "^11.0.5"
+    "@haxtheweb/multiple-choice": "^11.0.5",
+    "lit": "^3.1.0"
   },
   "devDependencies": {
-    "@web/dev-server": "^0.4.6"
+    "@web/dev-server": "^0.4.6",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "rollup": "^4.9.5",
+    "rollup-plugin-copy": "^3.5.0"
   }
 }
